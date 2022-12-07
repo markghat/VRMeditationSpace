@@ -13,7 +13,7 @@ public class treeGen : MonoBehaviour
         //look up instantiate in api documentation
         //Debug.Log("test");
         
-       for(int i =0;i<60;i++){
+       for(int i =0;i<30;i++){
         GameObject Left = Instantiate(tree);
         Vector3 posPosition = new Vector3(Random.Range(-100,100f),-2,Random.Range(25,100f));
         Left.transform.position=posPosition;
